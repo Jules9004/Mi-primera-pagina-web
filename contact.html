@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <Title>Mi primer Website</Title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="container-nav">
+                <nav class="navbar" role="navigation">
+                    <a href="index.html" class="brand">Mi página Web</a>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+            <button class="button-menu-toggle">Menu</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Contacto</h1>
+            <div class="row">
+                <div class="column">
+                    <p>Contáctanos para cualquier consulta o solicitud de información</p>
+                </div>
+            </div>
+        </div>
+        <form id="myForm">
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+              </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-6">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputMessage" class="col-sm-2 col-form-label">Mensaje</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputMessage" placeholder="Message">
+                </div>
+              </div>
+            <button class="boton" type="submit">Enviar</button>
+        </form>
+        <script src="../script.js"></script>
+    </body>
+</html>
+
+
+
